@@ -1,0 +1,14 @@
+{
+	"name": "$NAME$",
+	"app": "$APP$",
+	"description": "",
+	"author": [
+		{
+			"name": "",
+			"email": ""
+		}
+	],
+	"files": [
+		"theme.php"
+	]
+}

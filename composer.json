@@ -1,0 +1,42 @@
+{
+    "name": "gkr/themes",
+    "description": "themes for laravel",
+    "keywords": [
+        "themes",
+        "theme",
+        "gkr",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "lichnow",
+        "email": "lichnow@gmail.com",
+        "homepage": "http://gkr.io",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "5.4.*|5.5.*",
+        "illuminate/console": "5.4.*|5.5.*",
+        "illuminate/container": "5.4.*|5.5.*",
+        "illuminate/filesystem": "5.4.*|5.5.*",
+        "illuminate/translation": "5.4.*|5.5.*",
+        "illuminate/view": "5.4.*|5.5.*",
+        "illuminate/config": "5.4.*|5.5.*",
+        "symfony/finder": "^3.2",
+        "gkr/support": "dev-master",
+        "gkr/apps": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gkr\\Themes\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
